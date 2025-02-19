@@ -19,7 +19,7 @@ export default function CourseGoalList({
   let warningBox: ReactNode;
 
   if(goals.length >= 4) {
-    warningBox = <InfoBox mode="warning">Too much goals!.</InfoBox>
+    warningBox = <InfoBox mode="warning" severity="high">Too much goals!.</InfoBox>
   }
 
   return (
